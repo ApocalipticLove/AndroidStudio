@@ -11,7 +11,6 @@ public class Browserstack {
     public static String getVideoUrl(String sessionId) {
         Config config = ConfigFactory.create(Config.class);
         String url = format("https://api.browserstack.com/app-automate/sessions/%s.json", sessionId);
-
         return given()
                 .log().all()
                 .filter(withCustomTemplates())
@@ -19,7 +18,6 @@ public class Browserstack {
                 .when()
                 .get(url)
                 .then()
-                .log().all()
                 .statusCode(200)
                 .extract()
                 .path("automation_session.video_url");
