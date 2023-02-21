@@ -1,4 +1,4 @@
-package tests.IosTests;
+package tests.ios;
 
 import tests.TestBase;
 import org.junit.jupiter.api.Tag;

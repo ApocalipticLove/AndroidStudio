@@ -1,4 +1,4 @@
-package tests.AndroidTests;
+package tests.android;
 
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;

@@ -16,11 +16,10 @@ import static com.codeborne.selenide.Selenide.sessionId;
 
 public class TestBase {
     @BeforeAll
-
     static void beforeAll() {
         switch (System.getProperty("env")) {
             case "android":
-            case "Ios":
+            case "ios":
                 Configuration.browser = BrowserstackDriver.class.getName();
                 break;
             case "mobile":
