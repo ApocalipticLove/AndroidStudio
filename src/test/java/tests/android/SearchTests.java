@@ -51,6 +51,36 @@ public class SearchTests extends TestBase {
         step("Wiki home page check ", () -> {
             $(id("org.wikipedia.alpha:id/search_container")).shouldBe(visible);
         });
+    }
 
+    @Test
+    @Tag("android")
+    void ebayTest2() {
+        back();
+        step("Type search", () -> {
+            $(accessibilityId("Search Wikipedia")).click();
+            $(id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Ebay");
+        });
+        step("Article selection", () -> {
+            $(id("org.wikipedia.alpha:id/page_list_item_description")).click();
+        });
+        step("Click on widget Save", () -> {
+            $(id("org.wikipedia.alpha:id/page_save")).click();
+        });
+        step("Verify saving the bookmark", () -> {
+            $(id("org.wikipedia.alpha:id/snackbar_text")).shouldHave(text("Saved eBay. Do you want to add it to a list?"));
+        });
+        step("Push button OK for add to list", () -> {
+            $(id("org.wikipedia.alpha:id/snackbar_action")).click();
+        });
+        step("List name input", () -> {
+            $(id("org.wikipedia.alpha:id/text_input")).sendKeys("Note");
+        });
+        step("Push button OK for create list", () -> {
+            $(id("android:id/button1")).click();
+        });
+        step("Verify the bookmark moved to the list", () -> {
+            $(id("org.wikipedia.alpha:id/snackbar_text")).shouldHave(text("Moved eBay to Note."));
+        });
     }
 }

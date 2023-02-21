@@ -17,7 +17,6 @@ import java.net.URL;
 import static io.appium.java_client.remote.AutomationName.ANDROID_UIAUTOMATOR2;
 import static org.apache.commons.io.FileUtils.copyInputStreamToFile;
 
-
 public class MobileDriver implements WebDriverProvider {
 
     static Config config = ConfigFactory.create(Config.class);
