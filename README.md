@@ -54,9 +54,6 @@ gradle -Denv=mobile clean android (AndroidStudio)
   <img src="media/screen/start_jenkins.png" alt="Jenkins" width="800">
 </p>
 
-После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки появится
-значок *Allure Report* кликнув по которому, откроется страница с сформированным html-отчетом и тестовой документацией.
-
 ## <img width="4%" title="Allure Report" src="media/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/AndroidStudio_final/4/allure/)
 
 <p align="center">
