@@ -38,7 +38,6 @@
 
 ```bash
 gradle -Denv=android clean android (Browserstack)
-gradle -Denv=ios clean ios (Browserstack)
 ```
 
 ### Локальный запуск тестов
