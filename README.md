@@ -1,4 +1,4 @@
-# <img width="5%" title="Wikipedia" src="media/logo/Wikipedia.svg"> Дипломный проект по тестирования мобильного приложения [Wikipedia](https://github.com/ApocalipticLove/AndroidStudio)
+# <img width="5%" title="Wikipedia" src="media/logo/Wikipedia.svg"> Проект по тестирования мобильного приложения [Wikipedia](https://github.com/ApocalipticLove/AndroidStudio)
 
 ## :open_book: Содержание:
 
@@ -73,7 +73,7 @@ gradle -Denv=mobile clean android (AndroidStudio)
 </p>
 
 ## <img width="4%" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram
-После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
+После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прохождении тестов.
 
 <p align="center">
 <img title="Telegram Notifications" src="media/screen/Telegram.png">
