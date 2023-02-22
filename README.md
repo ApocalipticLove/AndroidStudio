@@ -1,4 +1,4 @@
-# <img width="5%" title="Wikipedia" src="media/logo/Wikipedia.svg"> Дипломный проект по тестирования мобильного приложения [Wikipedia](https://github.com/wikimedia/apps-android-wikipedia/)
+# <img width="5%" title="Wikipedia" src="media/logo/Wikipedia.svg"> Дипломный проект по тестирования мобильного приложения [Wikipedia](https://github.com/ApocalipticLove/AndroidStudio)
 
 ## :open_book: Содержание:
 
@@ -58,22 +58,22 @@ gradle -Denv=mobile clean android (AndroidStudio)
 После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки появится
 значок *Allure Report* и *Allure TestOps* кликнув по которому, откроется страница с сформированным html-отчетом и тестовой документацией.
 
-## <img width="4%" title="Allure Report" src="media/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/015_aziyatdinov_final_mobile/)
+## <img width="4%" title="Allure Report" src="media/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/AndroidStudio_final/)
 
 <p align="center">
   <img src="media/screen/jenkins_overview.png" alt="allure-report" width="900">
 </p>
 
-### Основной дашборд
+### Основная страница с графиками
 
 <p align="center">
   <img src="media/screen/dashboards.png" alt="dashboard" width="900">
 </p>
 
-### Список тестов с результатами прогона
+### Тест кейсы в отчете allure
 
 <p align="center">
-  <img src="media/screen/allure-testops-results.png" alt="dashboard" width="900">
+  <img src="media/screen/allure-results.png" alt="dashboard" width="900">
 </p>
 
 ## <img width="4%" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram
@@ -88,7 +88,7 @@ gradle -Denv=mobile clean android (AndroidStudio)
 
 На данном видео выполняется:
 
-- Проверка добавления нового языка в настройках приложения
+- Проверка и создание списка с добавления в него новой статьи.
 
 
 <p align="center">
