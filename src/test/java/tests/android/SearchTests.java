@@ -10,7 +10,6 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 import static io.appium.java_client.AppiumBy.accessibilityId;
 import static io.qameta.allure.Allure.step;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.openqa.selenium.By.id;
 
 public class SearchTests extends TestBase {
@@ -55,7 +54,7 @@ public class SearchTests extends TestBase {
 
     @Test
     @Tag("android")
-    void ebayTest2() {
+    void createListAndAddBookmarkTest() {
         back();
         step("Type search", () -> {
             $(accessibilityId("Search Wikipedia")).click();
