@@ -1,4 +1,4 @@
-# <img width="5%" title="Wikipedia" src="media/logo/Wikipedia.svg"> Проект по тестирования мобильного приложения [Wikipedia](https://github.com/ApocalipticLove/AndroidStudio)
+# <img width="5%" title="Wikipedia" src="media/logo/Wikipedia.svg"> Проект по тестированию мобильного приложения [Wikipedia](https://github.com/ApocalipticLove/AndroidStudio)
 
 ## :open_book: Содержание:
 
